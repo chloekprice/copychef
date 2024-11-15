@@ -25,13 +25,15 @@ function App() {
   };
 
   return (
-    <div className="Site">
+    <div className="site">
       <header>
         {displayHeader()}
       </header>
-      {showHome && <div>{displayHome()}</div>}
-      {searchQuery && <div>{displaySearchResults(searchQuery)}</div>}
-      {selectedRecipe !== null && <div>{displayRecipe(selectedRecipe)}</div>}
+      <div className="main-content">
+        {showHome && <div>{displayHome()}</div>}
+        {searchQuery && <div>{displaySearchResults(searchQuery)}</div>}
+        {selectedRecipe !== null && <div>{displayRecipe(selectedRecipe)}</div>}
+      </div>
       <footer>
         {displayFooter()}
       </footer>
