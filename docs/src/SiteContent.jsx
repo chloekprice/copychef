@@ -9,10 +9,9 @@ const tabData = [
     { label: "Dessert"}
   ];
 
-function displayHeader() {
+function displayWebsite() {
     return (
         <div>
-             <h1 className="site-name">CopyChef</h1>
              <div>
                 <Tabs tabs={tabData} />
              </div>
@@ -20,4 +19,4 @@ function displayHeader() {
     );
 }
 
-export default displayHeader;
+export default displayWebsite;

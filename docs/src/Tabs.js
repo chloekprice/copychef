@@ -1,76 +1,109 @@
 import React, { useState } from "react";
+import displayHome from './HomePage';
+import displayRestuarants from './Restaurants'
+import displayBreakfast from './Breakfast'
+import displayLunch from './Lunch'
+import displayDinner from './Dinner'
+import displayDessert from './Dessert'
 import Tab from "./Tab";
 import "./App.css";
 
 const Tabs = ({ tabs }) => {
-    const [activeTab, setActiveTab] = useState(0);
-    const[value, setValue] = useState('required')
+    const [activeTab, setActiveTab] = useState(null);
 
     const handleTabClick = (index) => {
         setActiveTab(index);
     };
 
-    function quotes(value) {
+    // const [showHome, setShowHome] = useState(true);
+    // const [searchQuery, setSearchQuery] = useState(null);
+    // const [selectedRecipe, setSelectedRecipe] = useState(null);
+  
+    // const handleSearch = (query) => {
+    //   setSearchQuery(query)
+    // }
+    
+    // const handleRecipeSelect = (recipe) => {
+    //   setSelectedRecipe(recipe);
+    // };
+
+
+    function showRestaurants() {
+        return (
+            <div>
+                {displayRestuarants()}
+            </div>
+        );
+    }
+
+    function showBreakfast() {
+        return (
+            <div>
+                {displayBreakfast()}
+            </div>
+        );
+    }
+
+    function showLunch() {
+        return (
+            <div>
+                {displayLunch()}
+            </div>
+        );
+    }
+
+    function showDinner() {
+        return (
+            <div>
+                {displayDinner()}
+            </div>
+        );
+    }
+
+    function showDessert() {
+        return (
+            <div>
+                {displayDessert()}
+            </div>
+        );
+    }
+
+    function search(value) {
         if (value === 0) {
-            return showRequired();
-        } else {
-            return showElectives();
+            return showRestaurants();
+        } else if (value === 1) {
+            return showBreakfast();
+        } else if (value === 2) {
+            return showLunch(); 
+        } else if (value === 3) {
+            return showDinner();
+        } else if (value === 4) {
+            return showDessert();
         }
     }
-
-    var options0 = [
-        { label: 'CS 111', value: 'required' },
-        { label: 'CS 235', value: 'required' },
-        { label: 'CS 236', value: 'required' },
-      ];
-
-      var options1 = [
-        { label: 'CS 256', value: 'elective' },
-        { label: 'CS 356', value: 'elective' },
-        { label: 'CS 456', value: 'elective' },
-      ];
     
-    const handleSortClick = (event) => {
-        setValue(event.target.value);
-    };
-
-    function showRequired() {
-        return (
-            <div className="tab-content">
-                <select value={value} onChange={handleSortClick}>
-                    {options0.map((option) => (
-                        <option value={option.value}>{option.label}</option>
-                    ))}
-                </select>
-            </div>
-        );
-    }
-
-    function showElectives() {
-        return (
-            <div className="tab-content">
-                <select value={value} onChange={handleSortClick}>
-                    {options1.map((option) => (
-                        <option value={option.value}>{option.label}</option>
-                    ))}
-                </select>
-            </div>
-        );
-    }
-
     return (
-        <div className="tabs-container">
-            <div className="tabs">
-                {tabs.map((tab, index) => (
-                    <Tab
-                        key={index}
-                        label={tab.label}
-                        onClick={() =>
-                            handleTabClick(index)
-                        }
-                        isActive={index === activeTab}
-                    />
-                ))}
+        <div>
+            <h1 className="site-name" onClick={() =>handleTabClick(null)}>
+                CopyChef
+            </h1>
+            <div className="tabs-container">
+                <div className="tabs">
+                    {tabs.map((tab, index) => (
+                        <Tab
+                            key={index}
+                            label={tab.label}
+                            onClick={() =>
+                                handleTabClick(index)
+                            }
+                            isActive={index === activeTab}
+                        />
+                    ))}
+                </div>
+                <div>
+                    {activeTab === null && <div>{displayHome()}</div>}
+                    {activeTab !== null && search(activeTab)}
+                </div>
             </div>
         </div>
     );
