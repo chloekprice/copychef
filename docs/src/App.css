@@ -1,11 +1,12 @@
 .App {
-    text-align: center;
+    text-align: left;
     margin: auto;
 }
 
 .tabs-container {
     width: 400px;
     margin: 20px auto;
+    
 }
 
 .tabs {
@@ -28,4 +29,42 @@
 .tab-content {
     border: 1px solid #ddd;
     padding: 10px;
+}
+
+.main-contnet {
+    align-content: left;
+}
+
+.restaurants {
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.category-container {
+    display: flex;
+}
+  
+.column {
+flex: 1;
+margin: 0 1rem;
+font-size: 30px;
+font-weight: 600;
+}
+
+.recipes {
+    padding: auto;
+}
+
+.recipe-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+img.recipe-image {
+    max-width: 100px;
+}
+
+.recipe-name {
+    font-size: 20px;
+    font-weight: 300;
 }

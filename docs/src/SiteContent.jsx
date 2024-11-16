@@ -3,10 +3,8 @@ import Tabs from './Tabs';
 
 const tabData = [
     { label: "Restaurants" },
-    { label: "Breakfast" },
-    { label: "Lunch" },
-    { label: "Dinner"},
-    { label: "Dessert"}
+    { label: "Search" },
+    { label: "Dishes" }
   ];
 
 function displayWebsite() {

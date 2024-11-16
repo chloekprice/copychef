@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import displayHome from './HomePage';
 import displayRestuarants from './Restaurants'
-import displayBreakfast from './Breakfast'
-import displayLunch from './Lunch'
-import displayDinner from './Dinner'
-import displayDessert from './Dessert'
+import displaySearch from "./Search";
+import displayDishes from "./Dishes";
 import Tab from "./Tab";
 import "./App.css";
 
@@ -36,34 +34,18 @@ const Tabs = ({ tabs }) => {
         );
     }
 
-    function showBreakfast() {
+    function showSearch() {
         return (
             <div>
-                {displayBreakfast()}
+                {displaySearch()}
             </div>
         );
     }
 
-    function showLunch() {
+    function showDishes() {
         return (
             <div>
-                {displayLunch()}
-            </div>
-        );
-    }
-
-    function showDinner() {
-        return (
-            <div>
-                {displayDinner()}
-            </div>
-        );
-    }
-
-    function showDessert() {
-        return (
-            <div>
-                {displayDessert()}
+                {displayDishes()}
             </div>
         );
     }
@@ -72,13 +54,9 @@ const Tabs = ({ tabs }) => {
         if (value === 0) {
             return showRestaurants();
         } else if (value === 1) {
-            return showBreakfast();
+            return showSearch();
         } else if (value === 2) {
-            return showLunch(); 
-        } else if (value === 3) {
-            return showDinner();
-        } else if (value === 4) {
-            return showDessert();
+            return showDishes(); 
         }
     }
     
@@ -100,10 +78,10 @@ const Tabs = ({ tabs }) => {
                         />
                     ))}
                 </div>
-                <div>
-                    {activeTab === null && <div>{displayHome()}</div>}
-                    {activeTab !== null && search(activeTab)}
-                </div>
+            </div>
+            <div className="main-content">
+                {activeTab === null && <div>{displayHome()}</div>}
+                {activeTab !== null && search(activeTab)}
             </div>
         </div>
     );
