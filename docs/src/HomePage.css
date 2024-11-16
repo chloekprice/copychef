@@ -1,0 +1,37 @@
+.featured-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 325px;
+}
+
+.featured-recipe {
+    padding: 20px;
+}
+
+.suggested-header {
+    padding-left: 20px;
+}
+
+.suggested-recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.suggested-image{
+    width: 200px;
+    height: 200px;
+}
+
+.suggested-title {
+    font-size: 15px;
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 200px;
+    margin-top: 10px;
+}
