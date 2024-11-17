@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "version": "0.1.0",
-  "homepage": "http://chloekprice.github.io/copychef/",
+  "homepage": "https://chloekprice.github.io/copychef/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
