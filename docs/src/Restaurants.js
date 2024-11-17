@@ -1,83 +1,87 @@
-import React, {useState} from "react";
-import data from './RecipesByDish.json'; 
+import React, {useState} from 'react';
+import data from './RecipesByRestaurant.json'; 
+// import displayRecipe from './RecipeInfoPage';
 
-const DishData = [
-    "Breakfast",
-    "Lunch",
-    "Dinner",
-    "Dessert",
-    "Drink",
-    "Side" 
+const RestuarantData = [
+    "Cafe Rio",
+    "Cheesecake Factory",
+    "Chili's",
+    "Olive Garden",
+    "Panda Express",
+    "Red Robin",
+    "Shake Shack",
+    "Starbucks"
+  ];
+
+const RestuarantDataA = [
+    "Cafe Rio",
+    "Cheesecake Factory"
 ];
 
-const DishDataA = [
-    "Breakfast",
-    "Lunch" 
+const RestuarantDataB = [
+    "Chili's",
+    "Olive Garden"
 ];
 
-const DishDataB = [
-    "Dinner"
+const RestuarantDataC = [
+    "Panda Express",
+    "Red Robin"
 ];
 
-const DishDataC = [
-    "Dessert"
-];
-
-const DishDataD = [
-    "Drink",
-    "Side" 
+const RestuarantDataD = [
+    "Shake Shack",
+    "Starbucks"
 ];
 
 
-function DisplayDishes() {
+function DisplayRestaurants() {
     const [selectedRecipe, setSelectedRecipe] = useState(null);
   
     const handleRecipeSelect = (recipeChosen) => {
       setSelectedRecipe(recipeChosen);
     };
 
-
     const renderPage = () => {
         if (selectedRecipe === null) {
             return (
-                <div className="dishes">
+            <div className="restaurants">
                 <div className="category-container">
                     <div className="column">
-                        {DishDataA.map((dish, index) => (
+                        {RestuarantDataA.map((restaurant, index) => (
                             <div>
-                                <div className="restaurant" key={index} label={dish.label}>{dish}</div>
+                                <div className="restaurant" key={index} label={restaurant.label}>{restaurant}</div>
                                 <div> 
-                                    {getRecipes(dish)}
+                                    {getRecipes(restaurant)}
                                 </div>
                             </div>
                         ))}
                     </div>
                     <div className="column">
-                        {DishDataB.map((dish, index) => (
+                        {RestuarantDataB.map((restaurant, index) => (
                             <div>
-                                <div className="restaurant" key={index} label={dish.label}>{dish}</div>
+                                <div className="restaurant" key={index} label={restaurant.label}>{restaurant}</div>
                                 <div> 
-                                    {getRecipes(dish)}
+                                    {getRecipes(restaurant)}
                                 </div>
                             </div>
                         ))}
                     </div>
                     <div className="column">
-                        {DishDataC.map((dish, index) => (
+                        {RestuarantDataC.map((restaurant, index) => (
                             <div>
-                                <div className="restaurant" key={index} label={dish.label}>{dish}</div>
+                                <div className="restaurant" key={index} label={restaurant.label}>{restaurant}</div>
                                 <div> 
-                                    {getRecipes(dish)}
+                                    {getRecipes(restaurant)}
                                 </div>
                             </div>
                         ))}
                     </div>
                     <div className="column">
-                        {DishDataD.map((dish, index) => (
+                        {RestuarantDataD.map((restaurant, index) => (
                             <div>
-                                <div className="restaurant" key={index} label={dish.label}>{dish}</div>
+                                <div className="restaurant" key={index} label={restaurant.label}>{restaurant}</div>
                                 <div> 
-                                    {getRecipes(dish)}
+                                    {getRecipes(restaurant)}
                                 </div>
                             </div>
                         ))}
@@ -93,6 +97,7 @@ function DisplayDishes() {
             );
         }
     }
+    
 
     return(
         <div>
@@ -102,13 +107,13 @@ function DisplayDishes() {
 
     function getRecipes(name) {
         for (var i = 0; i < data.length; i++){ 
-            if (data[i].dish === name) {
+            if (data[i].restaurant === name) {
                 return (
                     <div className="recipes">
                         {data[i].recipes.map((recipe, index) => (
                             <div className='recipe-container' onClick={() => setSelectedRecipe(recipe)}>
                                 <img className="recipe-image" src= {recipe.image} alt="image"/>
-                                <div className="recipe-name" key={index} label={recipe.label}>{recipe.name}</div>
+                                <div className="recipe-name" key={index} label={recipe.label} >{recipe.name}</div>
                             </div>
                         ))}
                     </div>
@@ -145,4 +150,4 @@ function DisplayDishes() {
     }
 }
 
-export default DisplayDishes;
+export default DisplayRestaurants;

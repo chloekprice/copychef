@@ -3,6 +3,7 @@ import React from "react";
 function displayRecipe(recipe_info) {
     return(
         <div>
+            <p onClick={recipe_info = null}>GO BACK</p>
             <h1>RECIPE</h1>
             <h2>INGREDIENTS</h2>
                 <ul>
