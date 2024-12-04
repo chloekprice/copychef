@@ -61,7 +61,8 @@ font-weight: 600;
 }
 
 img.recipe-image {
-    max-width: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .recipe-name {

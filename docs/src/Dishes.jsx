@@ -109,7 +109,7 @@ function DisplayDishes() {
                             <div className='recipe-container' onClick={() => setSelectedRecipe(recipe)}>
                                 <img className="recipe-image" src= {recipe.image} alt="image"/>
                                 <div className="recipe-name" key={index} label={recipe.label}>{recipe.name}</div>
-                            </div>
+                            </div> 
                         ))}
                     </div>
                 );

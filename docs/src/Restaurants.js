@@ -2,35 +2,32 @@ import React, {useState} from 'react';
 import data from './RecipesByRestaurant.json'; 
 // import displayRecipe from './RecipeInfoPage';
 
-const RestuarantData = [
-    "Cafe Rio",
-    "Cheesecake Factory",
-    "Chili's",
-    "Olive Garden",
-    "Panda Express",
-    "Red Robin",
-    "Shake Shack",
-    "Starbucks"
-  ];
 
 const RestuarantDataA = [
+    "Applebee's",
     "Cafe Rio",
-    "Cheesecake Factory"
+    "Cheesecake Factory",
+    "Chili's"
 ];
 
 const RestuarantDataB = [
-    "Chili's",
-    "Olive Garden"
+    "Hard Rock Cafe",
+    "Kneader's",
+    "L&L"
 ];
 
 const RestuarantDataC = [
+    "McDonald's", 
+    "Olive Garden",
     "Panda Express",
     "Red Robin"
 ];
 
 const RestuarantDataD = [
     "Shake Shack",
-    "Starbucks"
+    "Starbucks",
+    "Taco Bell",
+    "Wildflower Bread Co."
 ];
 
 

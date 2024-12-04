@@ -343,5 +343,323 @@
             "Red Robin",
             "Drink"
         ]
+    },
+    {
+        "name": "McDonald’s Breakfast Burrito",
+        "image": "https://copykat.com/wp-content/uploads/2023/08/McDonalds-Breakfast-Burrito-Pin.jpg",
+        "ingredients": [
+            "1 pound pork sausage mild",
+            "1/2 cup yellow onion diced",
+            "1/4 cup fresh tomatoes diced",
+            "1 tablespoon green chilies (diced those in a can)",
+            "10 – tortillas 6 inch torillas ",
+            "9 eggs",
+            "6 ounces American cheese 12 slices",
+            "1/2 cup salsa"
+        ],
+        "instructions": [
+            "1. Crumble and fry pork sausage, stir and separate meat so it will fry in small little pieces. Remove from heat drain excess grease. ",
+            "2. Place drained sausage in frying pan add onion, green chilies, and tomatoes, heat on medium temperature just until sausage and vegetables are heated through, stir frequently. ",
+            "3. Measure 2 cups of eggs and beat. Add the eggs to the pan with the sausage mixture. When cooked remove from heat. ",
+            "4. Place two tablespoons of the sausage and egg mixture onto 1 tortilla, tear each slice of American cheese into two even portions, then place the cheese on top of the sausage mixture, and roll the tortilla. ",
+            "5. If you make these all ahead of time, you can wrap in plastic to store them in the refrigerator or freezer, and then heat them up in the microwave for a moment or two.",
+            "6. Serve with your favorite taco or Picante sauce. You will find these are milder and really great for breakfast. I also like to serve sour cream and avocado with mine."
+        ],
+        "tags": [
+            "McDonald's",
+            "Breakfast"
+        ]
+    },
+    {
+        "name": "McDonald’s McGriddle",
+        "image": "https://copykat.com/wp-content/uploads/2024/02/McDonalds-McGriddle-Photo.jpg",
+        "ingredients": [
+            "1 ½ cups pancake mix",
+            "1 cup water",
+            "⅓ cup pancake syrup",
+            "4 sausage patties",
+            "4 slices American cheese",
+            "4 eggs",
+            "2 tablespoons olive oil",
+            "1 teaspoon salt",
+            "1 teaspoon pepper"
+        ],
+        "instructions": [
+            "1. Place pancake mix and water in a medium bowl. Mix until thoroughly combined.",
+            "2. Heat skillet over medium heat. Place a 3 inch metal round cookie cutter or mason jar lid lightly spray with non-stick spray in the skillet and fill it half full with pancake batter.",
+            "3. After one minute, when bubbles start to form, remove the cookie cutter and flip the pancake over. Cook on the other side for one minute then remove and put on a plate.",
+            "4. Repeat steps 2 & 3 until you have 8 pancakes for the sandwiches.",
+            "5. Using a silicone brush, spread syrup over both sides of the pancakes and set aside.",
+            "6. Cook the sausage patties over medium heat for 3 minutes on each side. Remove from heat and top them with cheese.",
+            "7. In a small bowl, beat egg with a fork (one at a time). Add a pinch of salt and pepper while beating.",
+            "8. Add a small amount of olive oil to the skillet. Add beaten egg and cook for about one minute, then fold the egg over twice to make a small square to fit the sandwich.",
+            "9. Repeat steps 7 & 8 for the remaining eggs.",
+            "10. Assemble sandwiches with pancake bottom, egg, sausage, cheese and topped with another pancake."
+        ],
+        "tags": [
+            "McDonald's",
+            "Breakfast"
+        ]
+    },
+    {
+        "name": "Hard Rock Cafe California Style Cobb Salad",
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps185887_SD153208A08_13_10b-2.jpg?fit=500,500&webp=1",
+        "ingredients": [
+            "1 bottle (18 ounces) barbecue sauce",
+            "2 tablespoons brown sugar",
+            "1/2 teaspoon garlic powder",
+            "1/4 teaspoon paprika",
+            "1-1/2 pounds boneless skinless chicken breasts",
+            "12 cups chopped romaine",
+            "2 avocados, peeled and chopped",
+            "3 plum tomatoes, chopped",
+            "2 small carrots, thinly sliced",
+            "1 medium sweet red or green pepper, chopped",
+            "3 hard-boiled large eggs, chopped",
+            "26 bacon strips, cooked and crumbled",
+            "1-1/2 cups shredded cheddar cheese",
+            "Salad dressing of your choice"
+        ],
+        "instructions": [
+            "1. In a greased 3-qt. slow cooker, mix barbecue sauce, brown sugar, garlic powder and paprika. Add chicken; turn to coat. Cook, covered, on low 3-4 hours or until chicken is tender (a thermometer should read at least 165°).",
+            "2. Remove chicken from slow cooker; cut into bite-sized pieces. In a bowl, toss chicken with 1 cup barbecue sauce mixture. Place romaine on a large serving platter; arrange chicken, avocado, vegetables, eggs, bacon and cheese over romaine. Drizzle with dressing."
+        ],
+        "tags": [
+            "Hard Rock Cafe",
+            "Lunch"
+        ]
+    },
+    {
+        "name": "Kneaders Chunky Cinnamon French Toast & Caramel Syrup",
+        "image": "https://www.sixsistersstuff.com/wp-content/uploads/2014/07/Kneaders-French-Toast-and-Caramel-Syrup.jpg-270x270.jpg",
+        "ingredients": [
+            "French Toast:",
+            "1 loaf Kneaders Chunky Cinnamon Bread, cut into 8 slices (if you don't live near Kneaders, any type of thick-cut cinnamon swirl bread will work)",
+            "8 eggs",
+            "3 cups milk",
+            "1 Tablespoon brown sugar",
+            "¾ teaspoon salt",
+            "1 Tablespoon vanilla extract",
+            "2 Tablespoons butter",
+            "Caramel Syrup:",
+            "1 cup brown sugar",
+            "1 cup heavy whipping cream",
+            "1 cup corn syrup"
+        ],
+        "instructions": [
+            "1. Preheat an electric griddle to 375 degrees F.",
+            "2. In a shallow baking dish, mix eggs, milk, brown sugar, salt and vanilla",
+            "3. Melt butter evenly across your griddle.",
+            "4. Dip each slice of bread into egg mixture and coat completely on each side. ",
+            "5. Place coated bread on hot griddle and turn until lightly browned on each side. ",
+            "6. Optional: serve with whipped cream and strawberries on top."
+        ],
+        "tags": [
+            "Kneaders",
+            "Breakfast"
+        ]
+    },
+    {
+        "name": "Wildflower Bread Co. Fresh Lemon Ricotta Pancakes",
+        "image": "https://abountifulkitchen.com/wp-content/uploads/2015/01/IMG_5989-1024x682.jpg",
+        "ingredients": [
+            "2 eggs",
+            "1 cup ricotta, or about 200 grams",
+            "2 tablespoons sugar",
+            "2 tablespoons fresh lemon juice",
+            "1 tablespoon lemon zest",
+            "1/4 cup water, 1/4 additional may be needed to thin batter",
+            "3/4 cup all purpose flour",
+            "1 teaspoon baking soda",
+            "1/2 teaspoon baking powder",
+            "1/4 teaspoon salt"
+        ],
+        "instructions": [
+            "1. Heat griddle to medium high heat or 350 degrees. You may also wait to heat griddle until after the pancakes are mixed. I do this before mixing the batter because my griddle takes a while to fully heat.",
+            "2. In a large bowl, whisk the eggs. Add ricotta, sugar, lemon juice and lemon zest. Whisk together.",
+            "3. Add the water and whisk again.",
+            "4. Add the flour, baking soda, baking powder and salt all at once. Mix just until the wet and dry ingredients are incorporated. Do not over mix. The batter does not need to be smooth. Let sit for a couple of minutes.",
+            "5. Grease hot griddle with little butter or oil.",
+            "6. Check the batter, it should be similar to the consistency of a cake batter that can barely be poured.",
+            "7. Using a 1/4 cup measure, scoop out the pancake batter onto the griddle. Cook until the edges of the pancakes bubble and the bubbles pop. Flip the pancakes. Do not pat down. Do not flip more than once. The pancake is done when you quickly touch the middle of the pancake with a spatula, and the pancake springs back. If the batter is too thick, thin with a little water or milk.",
+            "8. Serve immediately with fresh blueberries and syrup."
+        ],
+        "tags": [
+            "Wildflower Bread Co.",
+            "Breakfast"
+        ]
+    },
+    {
+        "name": "Wildflower Bread Co. Potato Cream Cheese Soup",
+        "image": "https://bakedinaz.com/wp-content/uploads/2016/08/Wildflower-Potato-Soup.jpg",
+        "ingredients": [
+            "2 Tablespoons butter",
+            "½ cup chopped onions",
+            "¼ cup celery, finely diced",
+            "2 Tablespoons flour",
+            "3 cups shredded potatoes (I used a package of Simply Potatoes)",
+            "3 cups chicken broth",
+            "½ cup sour cream",
+            "4 ounces cream cheese",
+            "2 Tablespoons cooked and crumbled bacon or diced ham (I used real bacon crumbles)",
+            "salt & pepper",
+            "dried chives for garnish, optional"
+        ],
+        "instructions": [
+            "1. In a small saucepan melt the butter and sauté onions and celery until tender. Add the flour and stir, cooking over medium heat for 1 minute. Set aside.",
+            "2. In a large pan, combine the broth and potatoes. Bring to a boil and then reduce the heat to medium-low. Cook until potatoes are tender, but not mushy. Stir occasionally so they don't stick to the pan.",
+            "3. When the potatoes are tender, turn the heat to low and stir in the onion mixture, sour cream and cream cheese. Stir till creamy.",
+            "4. Add the bacon and salt and pepper to taste."
+        ],
+        "tags": [
+            "Wildflower Bread Co.",
+            "Lunch",
+            "Dinner"
+        ]
+    },
+    {
+        "name": "Hard Rock Cafe Southwest Egg Rolls",
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/EXPS_104189_THHC2377564B06_22_4bC_RMS.jpg?fit=500,500&webp=1",
+        "ingredients": [
+            "1 cup fresh baby spinach, chopped",
+            "2 tablespoons finely chopped red onion",
+            "2 tablespoons finely chopped sweet red pepper",
+            "1 jalapeno pepper, seeded and minced",
+            "1 tablespoon canola oil",
+            "1/3 cup frozen corn, thawed",
+            "1/4 cup black beans, rinsed and drained",
+            "1/8 teaspoon salt",
+            "Dash cayenne pepper",
+            "Dash ground cumin",
+            "3/4 cup shredded reduced-fat Monterey Jack cheese or reduced-fat Mexican cheese blend",
+            "4 ounces reduced-fat cream cheese",
+            "30 wonton wrappers",
+            "Cooking spray"        
+        ],
+        "instructions": [
+            "1. In a large skillet, saute the spinach, onion, red pepper and jalapeno in oil until tender. Stir in the corn, beans and seasonings; heat through. Remove from the heat. Stir in shredded cheese and cream cheese until melted.",
+            "2. Position a wonton wrapper with one point toward you. (Keep remaining wrappers covered with a damp paper towel until ready to use.) Place 2 teaspoons of filling in the center of wrapper. Fold bottom corner over filling; fold sides toward center over filling. Roll toward the remaining point. Moisten top corner with water; press to seal. Repeat with remaining wrappers and filling.",
+            "3. Place in a 15x10x1-in. baking pan coated with cooking spray; lightly coat egg rolls with additional cooking spray. Bake at 425° for 8-10 minutes or until golden brown, turning once."
+        ],
+        "tags": [
+            "Hard Rock Cafe",
+            "Lunch",
+            "Side"
+        ]
+    },
+    {
+        "name": "L&L Hawaiian Macaroni Salad",
+        "image": "https://www.chewoutloud.com/wp-content/uploads/2024/07/hawaiian-mac-vertical-1024x1536.jpg",
+        "ingredients": [
+            "½ lb elbow macaroni",
+            "¼ cup onion, minced",
+            "2 TB shredded carrots",
+            "1 cup mayonnaise, real, whole mayo",
+            "¼ cup green onion, thinly sliced",
+            "½ tsp white pepper",
+            "1 tsp kosher salt",
+            "freshly chopped parsley , optional, for garnish"       
+        ],
+        "instructions": [
+            "1. Bring a large pot of well salted water to boil. Cook macaroni until tender, according to package instructions. Drain, rinse thoroughly with cold water; be sure to drain well.",
+            "2. Combine remaining ingredients with the cold, cooked macaroni. Toss to combine well. Chill 2-3 hours or overnight. Toss again right before serving."
+        ],
+        "tags": [
+            "L&L",
+            "Lunch",
+            "Side"
+        ]
+    },
+    {
+        "name": "L&L Chicken Katsu Recipe",
+        "image": "https://onohawaiianrecipes.com/wp-content/uploads/2022/06/chicken-katsu-2.jpg",
+        "ingredients": [
+            "Chicken:",
+            "6-10 chicken thighs",
+            "seasoning",
+            "flour",
+            "whisked eggs",
+            "2 tsp milk (optional)",
+            "panko Japanese bread crumbs",
+            "2-3 cups oil",
+            "Katsu Sauce:",
+            "1/2 cup ketchup",
+            "2 tbsp shoyu (soy sauce)",
+            "1 tbsp mirin (white wine)",
+            "1 tbsp brown sugar",
+            "1 1/2 tsp worcestershire sauce",
+            "1/2 tsp ginger powder",
+            "1 clove minced garlic"     
+        ],
+        "instructions": [
+            "1. Heat an inch or two of oil in a pot over medium heat. Whisk together the eggs in a small bowl. Optional to add in milk to help stretch the egg. Add about 5 spoonful of flour to a plate and two handfuls of panko to a separate plate.",
+            "2. Tenderize or flatten the chicken with a mallet. Season both sides of the chicken with salt and pepper.",
+            "3. Dredge chicken thighs in flour, dip it in the whisked eggs, and lastly cover both sides in panko, lightly pressing down on each side.",
+            "4. Add the chicken to the oil and let it cook for 5 minutes each side or until it is golden brown.",
+            "5. Meanwhile add all the ingredients for the tonkatsu sauce to a small bowl and whisk it until all is mixed together well.",
+            "6. Serve the chicken katsu over hot rice along with the katsu sauce. Enjoy!"
+        ],
+        "tags": [
+            "L&L",
+            "Dinner"
+        ]
+    },
+    {
+        "name": "Taco Bell Quesadilla Sauce",
+        "image": "https://keytomylime.com/wp-content/uploads/2019/08/Copycat-Taco-Bell-Quesadilla-Sauce-Pin-4.jpg",
+        "ingredients": [
+            "½ cup mayonnaise",
+            "½ cup sour cream ",
+            "3 Tablespoons pickled jalapeno juice (from a jar of pickled jalapenos)",
+            "3 Tablespoons pickled jalapenos (diced)",
+            "2 teaspoon paprika ",
+            "2 teaspoons ground cumin ",
+            "1 teaspoon garlic granules ",
+            "1 teaspoon onion powder",
+            "½ teaspoon salt (or to taste)",
+            "½ teaspoon chili powder "  
+        ],
+        "instructions": [
+            "1. In a medium bowl, mix all ingredients together."
+        ],
+        "tags": [
+            "Taco Bell",
+            "Side"
+        ]
+    },
+    {
+        "name": "Applebee's Blondie",
+        "image": "https://www.the-girl-who-ate-everything.com/wp-content/uploads/2024/01/maple-blondie-02.jpg",
+        "ingredients": [
+            "Blondie:",
+            "3/4 cup unsalted butter, melted",
+            "1 ½ cups brown sugar",
+            "1 large egg plus 1 egg yolk",
+            "2 teaspoons vanilla extract",
+            "1½ cups all-purpose flour",
+            "1/2 teaspoon baking powder",
+            "1/2 teaspoon baking soda",
+            "1/2 teaspoon salt",
+            "1/2 cup chopped pecans or walnuts",
+            "1/2 cup white chocolate chips",
+            "Maple Cream Sauce:",
+            "1/4 cup butter, softened",
+            "1/4 cup powdered sugar",
+            "2 tablespoons cream cheese, softened",
+            "1 tablespoon maple syrup",
+            "vanilla ice cream for serving"     
+        ],
+        "instructions": [
+            "1. Preheat oven to 350℉ and grease an 8x8 baking dish.",
+            "2. In a large bowl, beat the butter and sugar together until combined. Add the eggs and vanilla; beat until light in color. ",
+            "3. Whisk in the flour, baking powder, baking soda, and salt. Stir in the white chocolate chips and nuts. ",
+            "4. Spread into the prepared baking dish. Bake for 25-35 minutes or until the center is set. For a gooey center cook around 25 minutes. The bars will set up as they cool. Cook longer for firmer bars.",
+            "5. While blondies are cooking, make the Maple Cream Sauce. In a small bowl, whisk together the butter, powdered sugar, cream cheese, and syrup by hand or with a mixer. If you want it thinner you can heat it for a few seconds in the microwave. ",
+            "6. Serve blondies warm with a scoop of vanilla ice cream, drizzled with the maple cream sauce."
+        ],
+        "tags": [
+            "Applebee's",
+            "Dessert"
+        ]
     }
 ]
