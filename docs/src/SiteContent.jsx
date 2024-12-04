@@ -3,8 +3,8 @@ import Tabs from './Tabs';
 
 const tabData = [
     { label: "Restaurants" },
-    { label: "Search" },
-    { label: "Dishes" }
+    { label: "Dishes" },
+    { label: "Search" }
   ];
 
 function displayWebsite() {

@@ -27,9 +27,9 @@ const Tabs = ({ tabs }) => {
         if (value === 0) {
             return <DisplayRestaurants />;
         } else if (value === 1) {
+            return <DisplayDishes />;
+        } else if (value === 2) { 
             return showSearch();
-        } else if (value === 2) {
-            return <DisplayDishes />; 
         }
     }
     
