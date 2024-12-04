@@ -63,6 +63,7 @@ font-weight: 600;
 img.recipe-image {
     width: 100px;
     height: 100px;
+    object-fit: fill;
 }
 
 .recipe-name {
