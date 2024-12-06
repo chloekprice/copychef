@@ -31,9 +31,27 @@
     padding: 10px;
 }
 
-.main-contnet {
-    align-content: center;
+.logo {
+    display: flex;
 }
+
+.main-content {
+    text-align: left;
+}
+
+.homepage {
+    text-align: center;
+    align-items: center;
+}
+
+.featured-image {
+    padding-left: 650px;
+}
+
+.recipe {
+    padding-left: 150px;
+}
+
 
 .restaurants {
     align-content: center;
@@ -64,6 +82,22 @@ img.recipe-image {
     width: 100px;
     height: 100px;
     object-fit: fill;
+}
+
+.selected-image {
+    max-height: 500px;
+}
+
+.selected-display {
+    padding-left: 50px;
+}
+
+.back-button {
+    max-width: 50px;
+}
+
+.selected-recipe-info {
+    text-align: center;
 }
 
 .recipe-name {

@@ -121,25 +121,28 @@ function DisplayDishes() {
 
     function displayRecipe(recipe_info) {
         return(
-            <div>
-                <p onClick={() => setSelectedRecipe(null)}>GO BACK</p>
-                <h1>{recipe_info.name}</h1>
-                <h2>INGREDIENTS</h2>
-                <ul>
-                    {recipe_info.ingredients.map((ingredient, index) => (
-                            <div>
-                                <div className="ingredient" key={index} label={ingredient.label}>{ingredient}</div>
-                            </div>
-                        ))}
-                </ul>
-                <h3>INSTRUCTIONS</h3>
-                    <ol>
-                        {recipe_info.instructions.map((instruction, index) => (
-                            <div>
-                                <div className="instruction" key={index} label={instruction.label}>{instruction}</div>
-                            </div>
-                        ))}
+            <div className="selected-display">
+                <img onClick={() => setSelectedRecipe(null)} src="https://pngmaterial.com/dvsxyz02/uploads/back-arrow-png.png" className="back-button" />
+                <div className="selected-recipe-info">
+                    <h1>{recipe_info.name}</h1>
+                    <img src={recipe_info.image} alt={recipe_info.name} className="selected-image"/>
+                    <h2>INGREDIENTS</h2>
+                    <ul>
+                        {recipe_info.ingredients.map((ingredient, index) => (
+                                <div>
+                                    <div className="ingredient" key={index} label={ingredient.label}>{ingredient}</div>
+                                </div>
+                            ))}
+                    </ul>
+                    <h3>INSTRUCTIONS</h3>
+                        <ol>
+                            {recipe_info.instructions.map((instruction, index) => (
+                                <div>
+                                    <div className="instruction" key={index} label={instruction.label}>{instruction}</div>
+                                </div>
+                            ))}
                     </ol>
+                </div>
             </div>
         );
     }

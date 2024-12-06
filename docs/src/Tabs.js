@@ -35,9 +35,10 @@ const Tabs = ({ tabs }) => {
     
     return (
         <div>
-            <h1 className="site-name" onClick={() =>handleTabClick(null)}>
-                CopyChef
-            </h1>
+            <div className="logo">
+                <img src="https://images.vexels.com/content/235846/preview/chefs-cooking-hat-f97ce0.png" height= "75" width="100"  />
+                <h1 className="site-name" onClick={() =>handleTabClick(null)} >CopyChef</h1>
+            </div>
             <div className="tabs-container">
                 <div className="tabs">
                     {tabs.map((tab, index) => (
@@ -61,3 +62,5 @@ const Tabs = ({ tabs }) => {
 };
 
 export default Tabs;
+
+// https://i.pinimg.com/736x/d0/ee/06/d0ee06b03e7f27f5e7955b1d75ebd358.jpg
