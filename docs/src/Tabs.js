@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import displayHome from './HomePage';
+import DisplayHome from './HomePage';
 import displayRestuarants from './Restaurants'
 import displaySearch from "./Search";
 import Tab from "./Tab";
@@ -53,7 +53,7 @@ const Tabs = ({ tabs }) => {
                 </div>
             </div>
             <div className="main-content">
-                {activeTab === null && <div>{displayHome()}</div>}
+                {activeTab === null && <div><DisplayHome /></div>}
                 {activeTab !== null && search(activeTab)}
             </div>
         </div>
