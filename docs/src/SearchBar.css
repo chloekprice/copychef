@@ -1,0 +1,9 @@
+.search-bar input {
+    border-radius: 5px;
+    border: 1.75px solid #9b9a9a;
+    font-size: 1rem;
+}
+
+.search-bar input:hover {
+    border-color: #4b4b4b;
+}
