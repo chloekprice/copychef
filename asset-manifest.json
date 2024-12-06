@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/copychef/static/css/main.7fed0ea5.css",
-    "main.js": "/copychef/static/js/main.0d124fdd.js",
+    "main.css": "/copychef/static/css/main.d26774df.css",
+    "main.js": "/copychef/static/js/main.1e942389.js",
     "static/js/453.98dd76c5.chunk.js": "/copychef/static/js/453.98dd76c5.chunk.js",
     "index.html": "/copychef/index.html",
-    "main.7fed0ea5.css.map": "/copychef/static/css/main.7fed0ea5.css.map",
-    "main.0d124fdd.js.map": "/copychef/static/js/main.0d124fdd.js.map",
+    "main.d26774df.css.map": "/copychef/static/css/main.d26774df.css.map",
+    "main.1e942389.js.map": "/copychef/static/js/main.1e942389.js.map",
     "453.98dd76c5.chunk.js.map": "/copychef/static/js/453.98dd76c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fed0ea5.css",
-    "static/js/main.0d124fdd.js"
+    "static/css/main.d26774df.css",
+    "static/js/main.1e942389.js"
   ]
 }
