@@ -7,6 +7,11 @@
     height: 325px;
 }
 
+.featured-image:hover, .featured-title:hover, 
+.suggested-image:hover, .suggested-title:hover {
+    cursor: pointer;
+}
+
 .featured-recipe {
     padding: 20px;
 }
